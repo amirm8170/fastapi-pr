@@ -1,0 +1,28 @@
+### post task
+POST {{url}}/task
+Content-Type: application/json
+
+{
+  "name": "new_task"
+}
+
+### get tasks
+GET {{url}}/task
+Content-Type: application/json
+
+### get task
+GET {{url}}/task/3
+Content-Type: application/json
+
+### update task
+PUT {{url}}/task/1
+Content-Type: application/json
+
+{
+  "name": "new name for test"
+}
+
+
+
+
+
